@@ -1,0 +1,638 @@
+{
+
+    "1": {
+        "name": "Literature European",
+        "category_id": 15
+    },
+    "2": {
+        "name": "Fine Arts Visual",
+        "category_id": 21
+    },
+    "4": {
+        "name": "Literature American",
+        "category_id": 15
+    },
+    "5": {
+        "name": "Science Chemistry",
+        "category_id": 17
+    },
+    "6": {
+        "name": "History British",
+        "category_id": 18
+    },
+    "8": {
+        "name": "Fine Arts Auditory",
+        "category_id": 21
+    },
+    "10": {
+        "name": "Science Other",
+        "category_id": 17
+    },
+    "12": {
+        "name": "Literature World",
+        "category_id": 15
+    },
+    "13": {
+        "name": "History American",
+        "category_id": 18
+    },
+    "14": {
+        "name": "Science Biology",
+        "category_id": 17
+    },
+    "16": {
+        "name": "History Classical",
+        "category_id": 18
+    },
+    "18": {
+        "name": "Science Physics",
+        "category_id": 17
+    },
+    "20": {
+        "name": "History World",
+        "category_id": 18
+    },
+    "22": {
+        "name": "Literature British",
+        "category_id": 15
+    },
+    "23": {
+        "name": "Science Computer Science",
+        "category_id": 17
+    },
+    "24": {
+        "name": "History European",
+        "category_id": 18
+    },
+    "25": {
+        "name": "Fine Arts Other",
+        "category_id": 21
+    },
+    "26": {
+        "name": "Science Math",
+        "category_id": 17
+    },
+    "27": {
+        "name": "Fine Arts Audiovisual",
+        "category_id": 21
+    },
+    "28": {
+        "name": "History Other",
+        "category_id": 18
+    },
+    "29": {
+        "name": "Literature Other",
+        "category_id": 15
+    },
+    "30": {
+        "name": "Literature Classical",
+        "category_id": 15
+    },
+    "31": {
+        "name": "Religion American",
+        "category_id": 19
+    },
+    "32": {
+        "name": "Trash American",
+        "category_id": 16
+    },
+    "33": {
+        "name": "Mythology American",
+        "category_id": 14
+    },
+    "34": {
+        "name": "Social Science American",
+        "category_id": 22
+    },
+    "35": {
+        "name": "Fine Arts American",
+        "category_id": 21
+    },
+    "36": {
+        "name": "Science American",
+        "category_id": 17
+    },
+    "37": {
+        "name": "Science World",
+        "category_id": 17
+    },
+    "38": {
+        "name": "Geography American",
+        "category_id": 20
+    },
+    "39": {
+        "name": "Philosophy American",
+        "category_id": 25
+    },
+    "40": {
+        "name": "Current Events American",
+        "category_id": 26
+    },
+    "42": {
+        "name": "Current Events Other",
+        "category_id": 26
+    },
+    "43": {
+        "name": "Fine Arts World",
+        "category_id": 21
+    },
+    "44": {
+        "name": "Geography World",
+        "category_id": 20
+    },
+    "45": {
+        "name": "Fine Arts British",
+        "category_id": 21
+    },
+    "46": {
+        "name": "Mythology Indian",
+        "category_id": 14
+    },
+    "47": {
+        "name": "Mythology Chinese",
+        "category_id": 14
+    },
+    "48": {
+        "name": "Mythology Japanese",
+        "category_id": 14
+    },
+    "49": {
+        "name": "Mythology Other East Asian",
+        "category_id": 14
+    },
+    "50": {
+        "name": "Fine Arts European",
+        "category_id": 21
+    },
+    "51": {
+        "name": "Religion East Asian",
+        "category_id": 19
+    },
+    "52": {
+        "name": "Philosophy East Asian",
+        "category_id": 25
+    },
+    "53": {
+        "name": "Trash Video Games",
+        "category_id": 16
+    },
+    "54": {
+        "name": "Mythology Other",
+        "category_id": 14
+    },
+    "55": {
+        "name": "Trash Sports",
+        "category_id": 16
+    },
+    "56": {
+        "name": "Social Science Economics",
+        "category_id": 22
+    },
+    "57": {
+        "name": "Religion Christianity",
+        "category_id": 19
+    },
+    "58": {
+        "name": "Mythology Greco-Roman",
+        "category_id": 14
+    },
+    "59": {
+        "name": "Trash Other",
+        "category_id": 16
+    },
+    "60": {
+        "name": "Social Science Other",
+        "category_id": 22
+    },
+    "61": {
+        "name": "Philosophy Classical",
+        "category_id": 25
+    },
+    "62": {
+        "name": "Religion Other",
+        "category_id": 19
+    },
+    "63": {
+        "name": "Mythology Norse",
+        "category_id": 14
+    },
+    "64": {
+        "name": "Social Science Political Science",
+        "category_id": 22
+    },
+    "65": {
+        "name": "Mythology Egyptian",
+        "category_id": 14
+    },
+    "66": {
+        "name": "Philosophy European",
+        "category_id": 25
+    },
+    "67": {
+        "name": "Trash Music",
+        "category_id": 16
+    },
+    "68": {
+        "name": "Religion Islam",
+        "category_id": 19
+    },
+    "69": {
+        "name": "Religion Judaism",
+        "category_id": 19
+    },
+    "70": {
+        "name": "Trash Television",
+        "category_id": 16
+    },
+    "71": {
+        "name": "Social Science Psychology",
+        "category_id": 22
+    },
+    "72": {
+        "name": "Trash Movies",
+        "category_id": 16
+    },
+    "73": {
+        "name": "Social Science Sociology",
+        "category_id": 22
+    },
+    "74": {
+        "name": "Philosophy Other",
+        "category_id": 25
+    },
+    "75": {
+        "name": "Social Science Linguistics",
+        "category_id": 22
+    },
+    "76": {
+        "name": "Social Science Anthropology",
+        "category_id": 22
+    },
+    "77": {
+        "name": "Fine Arts Opera",
+        "category_id": 21
+    },
+    "114": {
+        "name": "Mythology - Misc",
+        "category_id": 14
+    },
+    "115": {
+        "name": "Literature - Misc",
+        "category_id": 15
+    },
+    "116": {
+        "name": "Trash - Misc",
+        "category_id": 16
+    },
+    "117": {
+        "name": "Science - Misc",
+        "category_id": 17
+    },
+    "118": {
+        "name": "History - Misc",
+        "category_id": 18
+    },
+    "119": {
+        "name": "Religion - Misc",
+        "category_id": 19
+    },
+    "120": {
+        "name": "Geography - Misc",
+        "category_id": 20
+    },
+    "121": {
+        "name": "Fine Arts - Misc",
+        "category_id": 21
+    },
+    "122": {
+        "name": "Social Science - Misc",
+        "category_id": 22
+    },
+    "125": {
+        "name": "Philosophy - Misc",
+        "category_id": 25
+    },
+    "126": {
+        "name": "Current Events - Misc",
+        "category_id": 26
+    }
+},
+"backwards": {
+    "Literature European": {
+        "id": 1,
+        "category_id": 15
+    },
+    "Fine Arts Visual": {
+        "id": 2,
+        "category_id": 21
+    },
+    "Literature American": {
+        "id": 4,
+        "category_id": 15
+    },
+    "Science Chemistry": {
+        "id": 5,
+        "category_id": 17
+    },
+    "History British": {
+        "id": 6,
+        "category_id": 18
+    },
+    "Fine Arts Auditory": {
+        "id": 8,
+        "category_id": 21
+    },
+    "Science Other": {
+        "id": 10,
+        "category_id": 17
+    },
+    "History American": {
+        "id": 13,
+        "category_id": 18
+    },
+    "Science Biology": {
+        "id": 14,
+        "category_id": 17
+    },
+    "History Classical": {
+        "id": 16,
+        "category_id": 18
+    },
+    "Science Physics": {
+        "id": 18,
+        "category_id": 17
+    },
+    "History World": {
+        "id": 20,
+        "category_id": 18
+    },
+    "Literature British": {
+        "id": 22,
+        "category_id": 15
+    },
+    "Science Computer Science": {
+        "id": 23,
+        "category_id": 17
+    },
+    "History European": {
+        "id": 24,
+        "category_id": 18
+    },
+    "Fine Arts Other": {
+        "id": 25,
+        "category_id": 21
+    },
+    "Science Math": {
+        "id": 26,
+        "category_id": 17
+    },
+    "Fine Arts Audiovisual": {
+        "id": 27,
+        "category_id": 21
+    },
+    "History Other": {
+        "id": 28,
+        "category_id": 18
+    },
+    "Literature Other": {
+        "id": 29,
+        "category_id": 15
+    },
+    "Literature Classical": {
+        "id": 30,
+        "category_id": 15
+    },
+    "Religion American": {
+        "id": 31,
+        "category_id": 19
+    },
+    "Trash American": {
+        "id": 32,
+        "category_id": 16
+    },
+    "Mythology American": {
+        "id": 33,
+        "category_id": 14
+    },
+    "Social Science American": {
+        "id": 34,
+        "category_id": 22
+    },
+    "Fine Arts American": {
+        "id": 35,
+        "category_id": 21
+    },
+    "Science American": {
+        "id": 36,
+        "category_id": 17
+    },
+    "Science World": {
+        "id": 37,
+        "category_id": 17
+    },
+    "Geography American": {
+        "id": 38,
+        "category_id": 20
+    },
+    "Philosophy American": {
+        "id": 39,
+        "category_id": 25
+    },
+    "Current Events American": {
+        "id": 40,
+        "category_id": 26
+    },
+    "Current Events Other": {
+        "id": 42,
+        "category_id": 26
+    },
+    "Fine Arts World": {
+        "id": 43,
+        "category_id": 21
+    },
+    "Geography World": {
+        "id": 44,
+        "category_id": 20
+    },
+    "Fine Arts British": {
+        "id": 45,
+        "category_id": 21
+    },
+    "Mythology Indian": {
+        "id": 46,
+        "category_id": 14
+    },
+    "Mythology Chinese": {
+        "id": 47,
+        "category_id": 14
+    },
+    "Mythology Other East Asian": {
+        "id": 49,
+        "category_id": 14
+    },
+    "Mythology Japanese": {
+        "id": 48,
+        "category_id": 14
+    },
+    "Fine Arts European": {
+        "id": 50,
+        "category_id": 21
+    },
+    "Religion East Asian": {
+        "id": 51,
+        "category_id": 19
+    },
+    "Philosophy East Asian": {
+        "id": 52,
+        "category_id": 25
+    },
+    "Trash Video Games": {
+        "id": 53,
+        "category_id": 16
+    },
+    "Mythology Other": {
+        "id": 54,
+        "category_id": 14
+    },
+    "Trash Sports": {
+        "id": 55,
+        "category_id": 16
+    },
+    "Social Science Economics": {
+        "id": 56,
+        "category_id": 22
+    },
+    "Religion Christianity": {
+        "id": 57,
+        "category_id": 19
+    },
+    "Mythology Greco-Roman": {
+        "id": 58,
+        "category_id": 14
+    },
+    "Trash Other": {
+        "id": 59,
+        "category_id": 16
+    },
+    "Social Science Other": {
+        "id": 60,
+        "category_id": 22
+    },
+    "Philosophy Classical": {
+        "id": 61,
+        "category_id": 25
+    },
+    "Literature World": {
+        "id": 12,
+        "category_id": 15
+    },
+    "Religion Other": {
+        "id": 62,
+        "category_id": 19
+    },
+    "Mythology Norse": {
+        "id": 63,
+        "category_id": 14
+    },
+    "Social Science Political Science": {
+        "id": 64,
+        "category_id": 22
+    },
+    "Mythology Egyptian": {
+        "id": 65,
+        "category_id": 14
+    },
+    "Philosophy European": {
+        "id": 66,
+        "category_id": 25
+    },
+    "Trash Music": {
+        "id": 67,
+        "category_id": 16
+    },
+    "Religion Islam": {
+        "id": 68,
+        "category_id": 19
+    },
+    "Religion Judaism": {
+        "id": 69,
+        "category_id": 19
+    },
+    "Trash Television": {
+        "id": 70,
+        "category_id": 16
+    },
+    "Social Science Psychology": {
+        "id": 71,
+        "category_id": 22
+    },
+    "Trash Movies": {
+        "id": 72,
+        "category_id": 16
+    },
+    "Social Science Sociology": {
+        "id": 73,
+        "category_id": 22
+    },
+    "Philosophy Other": {
+        "id": 74,
+        "category_id": 25
+    },
+    "Social Science Linguistics": {
+        "id": 75,
+        "category_id": 22
+    },
+    "Social Science Anthropology": {
+        "id": 76,
+        "category_id": 22
+    },
+    "Fine Arts Opera": {
+        "id": 77,
+        "category_id": 21
+    },
+    "Mythology - Misc": {
+        "id": 114,
+        "category_id": 14
+    },
+    "Current Events - Misc": {
+        "id": 126,
+        "category_id": 26
+    },
+    "Social Science - Misc": {
+        "id": 122,
+        "category_id": 22
+    },
+    "Philosophy - Misc": {
+        "id": 125,
+        "category_id": 25
+    },
+    "History - Misc": {
+        "id": 118,
+        "category_id": 18
+    },
+    "Science - Misc": {
+        "id": 117,
+        "category_id": 17
+    },
+    "Trash - Misc": {
+        "id": 116,
+        "category_id": 16
+    },
+    "Literature - Misc": {
+        "id": 115,
+        "category_id": 15
+    },
+    "Fine Arts - Misc": {
+        "id": 121,
+        "category_id": 21
+    },
+    "Religion - Misc": {
+        "id": 119,
+        "category_id": 19
+    },
+    "Geography - Misc": {
+        "id": 120,
+        "category_id": 20
+    }
+
+}
