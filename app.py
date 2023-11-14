@@ -91,7 +91,8 @@ with app.app_context():
 # As of November 2023, WCS clusters are not yet compatible with the new API introduced in the v4 Python client.
 # Accordingly, we show you how to connect to a local instance of Weaviate.
 # Here, authentication is switched off, which is why you do not need to provide the Weaviate API key.
-def needs_params(words, optional=False):
+def needs_params(words, optional=None):
+   
     def inner(func): ## my brain is hurting from the triple decorator
         @wraps(func)
         def moreInner(**kwargs):
@@ -100,9 +101,9 @@ def needs_params(words, optional=False):
                 del validArgs['id']
             
             newkwargs = {}
-            for word in words:
+            for i, word in enumerate(words):
                 if not request.args.get(word):
-                    if not optional:
+                    if (not (optional is None)) and (optional[i] == True): ##this wouldnt work in a compiled language 😂
                         return "Error: Missing param argument '" + word + "'"
                     newkwargs[word] = None
                 else:
@@ -216,9 +217,11 @@ def version():
 
 
 @app.route("/search_cards")
-@needs_params(["query", "limit"])
-def search_cards(query=None, limit=None, user=None):
-    results = carder.get_near_card(query, limit)
+@needs_params(["query", "limit", "subcategories"])
+def search_cards(query=None, limit=None, user=None, subcategories=None):
+    if (subcategories != None):
+        subcategories = json.loads(subcategories)
+    results = carder.get_near_card(query, limit, subcategories=subcategories)
     return results
 
 @app.route("/practice_card")
@@ -240,7 +243,7 @@ def practice_card(rating=None, card_uuid=None, user=None):
 
 @app.route("/view_cards") 
 @needs_user_id
-@needs_params(["due"], optional=True)
+@needs_params(["due"], optional=[True])
 def view_due_cards(user=None, due=None):
     all_cards = get_user_cards(user)
     if due == "true":
@@ -273,7 +276,7 @@ def uuid_to_question(card_uuid=None, user=None):
     return card
         
 @app.route("/create_user")
-@needs_params(["redirect"], optional=True)
+@needs_params(["redirect"], optional=[True])
 def create_user(redirect=None):
     ### if someone doesnt have a user id, this makes them a new user
     new_user = User(user_id=get_random_user_id(), data=stringify(get_default_user_data()))

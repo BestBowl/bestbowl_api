@@ -46,16 +46,20 @@ def to_dict(obj):
             
 def subcategory(func):
     @wraps(func)
-    def wrapper(*args, subcategories=[], **kwargs):
+    def wrapper(*args, subcategories=None, **kwargs):
         ## assumes that the function it is wrapping returns either an array of weaviate cards or a weaviate card
         result = func(*args, **kwargs)
-        def _filter_by_subcategories():
-            # return [a for a in result if a] #TODO
-            pass
+        if subcategories is None:
+            return result
+        def _filter_by_subcategories(card):
+            subcata = card["extra"]["subcategory_id"]
+            if subcata not in subcategories:
+                return False
+            return True
         if type(result) == list:
-            return list(map(_filter_by_subcategories, result))
+            return list(filter(_filter_by_subcategories, result))
         else:
-            return _filter_by_subcategories(result)
+            raise RuntimeError("Subcategory decorator can only be used with a function that returns a list of cards")
     return wrapper
 def extra_info(func):
     @wraps(func)
@@ -66,7 +70,7 @@ def extra_info(func):
             properties = card['properties']
             nid = properties['nid']
             if nid[0] == "n":
-                ## this means the card was sourced from nocard.
+                ## this means the card was sourced from n ocard.
                 id = nid[1:]
                 
                 # print(id)
@@ -74,7 +78,8 @@ def extra_info(func):
                 if len(card_match) == 0:
                     print(f"No match found for {str(id)}")
                     return result
-                card_match = card_match[0]
+                card_match = card_match[0].copy()
+                print(card_match)
                 del card_match["text"]
                 del card_match["answer"]
                 del card_match["formatted_answer"]
@@ -83,7 +88,7 @@ def extra_info(func):
                 card["extra"] = card_match
                 
                 # print(result.__dict__)
-                print(card_match)
+                # print(card_match)
                 return card
         if type(result) == list:
             return list(map(_get_extra_info, result))
@@ -93,13 +98,13 @@ def extra_info(func):
 def _get_near_card(word, limit):
     q = client.collections.get("Question")
     limit = int(limit)
-    if (limit > 50):
-        limit = 50
+    # if (limit > 50):
+    #     limit = 50
     similar = q.query.near_text(query=word,limit=limit)
     results = [to_dict(obj) for obj in similar.objects]
     return results
-
 get_near_card = extra_info(_get_near_card)
+get_near_card = subcategory(get_near_card)
 def get_card_by_uuid(uuid):
     return to_dict(client.collections.get("Question").query.fetch_object_by_id(uuid=uuid, include_vector=True))
 
