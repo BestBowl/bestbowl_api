@@ -17,10 +17,18 @@ client = weaviate.connect_to_local(
         "X-OpenAI-Api-Key": os.environ["OPENAI_APIKEY"]  # Replace with your inference API key
     }
 )
+if not client.collections.exists("Question"):
+    print("MAKING NEW COLLECTION!!!")
+    client.collections.create(
+        name="Question", 
+        vectorizer_config=wvc.Configure.Vectorizer.text2vec_openai(),  # If set to "none" you must always provide vectors yourself. Could be any other "text2vec-*" also.
+        generative_config=wvc.Configure.Generative.openai(),
+        
+    )
 question = client.collections.get("Question")
-database = [a for a in question.iterator()]
+database = question.query.fetch_objects(limit=20_000)
 
-with open("./subcategories.json", mode="r", encoding="utf-8") as f:
+with open("./public/subcategories.json", mode="r", encoding="utf-8") as f:
     subcategories = json.load(f) ###AHHH THE MEMORY REQUIREMENTS GO CRAZYYYYYY
 with open("./card_adder/filtered.json", mode="r", encoding="utf-8") as f:
     filtered = json.load(f)

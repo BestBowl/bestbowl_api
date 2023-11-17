@@ -1,0 +1,1957 @@
+{
+    "1": {
+        "name": "2012 LIST (Ladue Invitational Spring Tournament)",
+        "difficulty": 3,
+        "year": 2012
+    },
+    "2": {
+        "name": "2013 ACF Fall",
+        "difficulty": 6,
+        "year": 2013
+    },
+    "3": {
+        "name": "2012 ACF Regionals",
+        "difficulty": 7,
+        "year": 2012
+    },
+    "4": {
+        "name": "2011 ACF Fall",
+        "difficulty": 6,
+        "year": 2011
+    },
+    "5": {
+        "name": "2012 Prison Bowl",
+        "difficulty": 4,
+        "year": 2012
+    },
+    "7": {
+        "name": "2012 ACF Fall",
+        "difficulty": 6,
+        "year": 2012
+    },
+    "8": {
+        "name": "2014 NASAT",
+        "difficulty": 7,
+        "year": 2014
+    },
+    "9": {
+        "name": "2011 VCU Open",
+        "difficulty": 8,
+        "year": 2011
+    },
+    "10": {
+        "name": "2013 Prison Bowl",
+        "difficulty": 4,
+        "year": 2013
+    },
+    "11": {
+        "name": "2013 DRAGOON",
+        "difficulty": 7,
+        "year": 2013
+    },
+    "12": {
+        "name": "2014 ACF Regionals",
+        "difficulty": 7,
+        "year": 2014
+    },
+    "13": {
+        "name": "2013 LIST III",
+        "difficulty": 3,
+        "year": 2013
+    },
+    "14": {
+        "name": "2014 SUBMIT",
+        "difficulty": 7,
+        "year": 2014
+    },
+    "15": {
+        "name": "2013 ACF Regionals",
+        "difficulty": 7,
+        "year": 2013
+    },
+    "16": {
+        "name": "2014 ACF Regionals 2014",
+        "difficulty": 7,
+        "year": 2014
+    },
+    "17": {
+        "name": "2013 Dragoon",
+        "difficulty": 7,
+        "year": 2013
+    },
+    "18": {
+        "name": "2012 Collegiate Novice",
+        "difficulty": 6,
+        "year": 2012
+    },
+    "19": {
+        "name": "2014 PACE NSC",
+        "difficulty": 5,
+        "year": 2014
+    },
+    "20": {
+        "name": "2014 PADAWAN",
+        "difficulty": 7,
+        "year": 2014
+    },
+    "21": {
+        "name": "2014 Masonic",
+        "difficulty": 3,
+        "year": 2014
+    },
+    "22": {
+        "name": "2013 NASAT",
+        "difficulty": 7,
+        "year": 2013
+    },
+    "23": {
+        "name": "2012 PACE NSC",
+        "difficulty": 5,
+        "year": 2012
+    },
+    "24": {
+        "name": "2011 ACF Fall ",
+        "difficulty": 6,
+        "year": 2011
+    },
+    "25": {
+        "name": "2012 ACF Regionals ",
+        "difficulty": 7,
+        "year": 2012
+    },
+    "26": {
+        "name": "2013 PACE NSC",
+        "difficulty": 5,
+        "year": 2013
+    },
+    "27": {
+        "name": "2015 ACF Regionals",
+        "difficulty": 7,
+        "year": 2015
+    },
+    "28": {
+        "name": "2015 ACF Regionals ",
+        "difficulty": 7,
+        "year": 2015
+    },
+    "29": {
+        "name": "2014 VCU Open",
+        "difficulty": 9,
+        "year": 2014
+    },
+    "30": {
+        "name": "2013 VCU Open",
+        "difficulty": 9,
+        "year": 2013
+    },
+    "31": {
+        "name": "2012 ACF Nationals",
+        "difficulty": 8,
+        "year": 2012
+    },
+    "32": {
+        "name": "2012 ACF Nationals ",
+        "difficulty": 8,
+        "year": 2012
+    },
+    "33": {
+        "name": "2014 ACF Fall",
+        "difficulty": 6,
+        "year": 2014
+    },
+    "34": {
+        "name": "2013 ACF Nationals ",
+        "difficulty": 8,
+        "year": 2013
+    },
+    "36": {
+        "name": "2013 ACF Nationals",
+        "difficulty": 8,
+        "year": 2013
+    },
+    "37": {
+        "name": "2013 Collegiate Novice",
+        "difficulty": 6,
+        "year": 2013
+    },
+    "38": {
+        "name": "2014 Cane Ridge Revival",
+        "difficulty": 8,
+        "year": 2014
+    },
+    "39": {
+        "name": "2011 Delta Burke",
+        "difficulty": 6,
+        "year": 2011
+    },
+    "40": {
+        "name": "2012 Chicago Open",
+        "difficulty": 9,
+        "year": 2012
+    },
+    "41": {
+        "name": "2013 Chicago Open",
+        "difficulty": 9,
+        "year": 2013
+    },
+    "42": {
+        "name": "2012 MUT",
+        "difficulty": 6,
+        "year": 2012
+    },
+    "43": {
+        "name": "2014 Padawan",
+        "difficulty": 7,
+        "year": 2014
+    },
+    "45": {
+        "name": "2013 VCU Closed ",
+        "difficulty": 8,
+        "year": 2013
+    },
+    "46": {
+        "name": "2014 Penn Bowl",
+        "difficulty": 7,
+        "year": 2014
+    },
+    "47": {
+        "name": "2014 DEES",
+        "difficulty": 7,
+        "year": 2014
+    },
+    "48": {
+        "name": "2012 Penn-ance",
+        "difficulty": 7,
+        "year": 2012
+    },
+    "49": {
+        "name": "2013 Penn Bowl",
+        "difficulty": 7,
+        "year": 2013
+    },
+    "50": {
+        "name": "2012 Penn Bowl",
+        "difficulty": 7,
+        "year": 2012
+    },
+    "51": {
+        "name": "2011 2011 Minnesota Open",
+        "difficulty": 9,
+        "year": 2011
+    },
+    "52": {
+        "name": "2014 ICCS",
+        "difficulty": 6,
+        "year": 2014
+    },
+    "53": {
+        "name": "2013 Western Invitational Tournament",
+        "difficulty": 7,
+        "year": 2013
+    },
+    "54": {
+        "name": "2013 Terrapin",
+        "difficulty": 7,
+        "year": 2013
+    },
+    "55": {
+        "name": "2009 ACF Fall",
+        "difficulty": 6,
+        "year": 2009
+    },
+    "57": {
+        "name": "2011 BHSAT",
+        "difficulty": 4,
+        "year": 2011
+    },
+    "58": {
+        "name": "2008 ACF Fall ",
+        "difficulty": 6,
+        "year": 2008
+    },
+    "59": {
+        "name": "2014 Prison Bowl",
+        "difficulty": 4,
+        "year": 2014
+    },
+    "60": {
+        "name": "2012 Prison Bowl ",
+        "difficulty": 4,
+        "year": 2012
+    },
+    "61": {
+        "name": "2009 ACF Nationals",
+        "difficulty": 8,
+        "year": 2009
+    },
+    "62": {
+        "name": "2009 ACF Winter",
+        "difficulty": 7,
+        "year": 2009
+    },
+    "63": {
+        "name": "2014 Chicago Open",
+        "difficulty": 9,
+        "year": 2014
+    },
+    "64": {
+        "name": "2014 BELLOCO",
+        "difficulty": 3,
+        "year": 2014
+    },
+    "65": {
+        "name": "2014 NASAT ",
+        "difficulty": 7,
+        "year": 2014
+    },
+    "66": {
+        "name": "2013 Michigan Fall Tournament",
+        "difficulty": 7,
+        "year": 2013
+    },
+    "67": {
+        "name": "2014 Michigan Fall Tournament",
+        "difficulty": 7,
+        "year": 2014
+    },
+    "68": {
+        "name": "2012 NASAT",
+        "difficulty": 7,
+        "year": 2012
+    },
+    "69": {
+        "name": "2013 GSAC",
+        "difficulty": 3,
+        "year": 2013
+    },
+    "70": {
+        "name": "2014 GSAC",
+        "difficulty": 3,
+        "year": 2014
+    },
+    "71": {
+        "name": "2011 Minnesota Open",
+        "difficulty": 9,
+        "year": 2011
+    },
+    "72": {
+        "name": "2012 QUARK",
+        "difficulty": 7,
+        "year": 2012
+    },
+    "73": {
+        "name": "2010 2010 ACF Fall",
+        "difficulty": 6,
+        "year": 2010
+    },
+    "75": {
+        "name": "2015 MUT",
+        "difficulty": 6,
+        "year": 2015
+    },
+    "76": {
+        "name": "2013 VCU Closed",
+        "difficulty": 8,
+        "year": 2013
+    },
+    "79": {
+        "name": "2012 BARGE",
+        "difficulty": 7,
+        "year": 2012
+    },
+    "80": {
+        "name": "2011 MAGNI",
+        "difficulty": 7,
+        "year": 2011
+    },
+    "81": {
+        "name": "2013 Brookwood Invitational Scholars Bowl",
+        "difficulty": 3,
+        "year": 2013
+    },
+    "82": {
+        "name": "2015 VCU Open",
+        "difficulty": 9,
+        "year": 2015
+    },
+    "83": {
+        "name": "2012 2012 Penn-ance",
+        "difficulty": 7,
+        "year": 2012
+    },
+    "84": {
+        "name": "2008 ACF Fall",
+        "difficulty": 6,
+        "year": 2008
+    },
+    "85": {
+        "name": "2010 ACF Nationals",
+        "difficulty": 8,
+        "year": 2010
+    },
+    "87": {
+        "name": "2015 STIMPY",
+        "difficulty": 7,
+        "year": 2015
+    },
+    "88": {
+        "name": "2011 Missiles of October",
+        "difficulty": 7,
+        "year": 2011
+    },
+    "89": {
+        "name": "2016 ACF Regionals",
+        "difficulty": 7,
+        "year": 2016
+    },
+    "91": {
+        "name": "2016 ACF Regionals ",
+        "difficulty": 7,
+        "year": 2016
+    },
+    "92": {
+        "name": "2015 PACE NSC",
+        "difficulty": 5,
+        "year": 2015
+    },
+    "93": {
+        "name": "2014 MUT",
+        "difficulty": 6,
+        "year": 2014
+    },
+    "94": {
+        "name": "2012 Minnesota Open",
+        "difficulty": 9,
+        "year": 2012
+    },
+    "95": {
+        "name": "2015 BHSAT",
+        "difficulty": 4,
+        "year": 2015
+    },
+    "96": {
+        "name": "2015 NASAT ",
+        "difficulty": 7,
+        "year": 2015
+    },
+    "97": {
+        "name": "2010 ACF Winter",
+        "difficulty": 7,
+        "year": 2010
+    },
+    "98": {
+        "name": "2015 Penn Bowl",
+        "difficulty": 7,
+        "year": 2015
+    },
+    "99": {
+        "name": "2016 PACE NSC",
+        "difficulty": 5,
+        "year": 2016
+    },
+    "100": {
+        "name": "2010 Maggie Walker GSAC",
+        "difficulty": 3,
+        "year": 2010
+    },
+    "101": {
+        "name": "2011 ACF Nationals",
+        "difficulty": 8,
+        "year": 2011
+    },
+    "102": {
+        "name": "2011 ACF Regionals",
+        "difficulty": 7,
+        "year": 2011
+    },
+    "103": {
+        "name": "2011 Chicago Open",
+        "difficulty": 9,
+        "year": 2011
+    },
+    "104": {
+        "name": "2011 Chicago Open History",
+        "difficulty": 9,
+        "year": 2011
+    },
+    "105": {
+        "name": "2011 HSAPQ Colonia 2",
+        "difficulty": 3,
+        "year": 2011
+    },
+    "106": {
+        "name": "2011 HSAPQ Tournament 17",
+        "difficulty": 3,
+        "year": 2011
+    },
+    "107": {
+        "name": "2011 HSAPQ Tournament 16",
+        "difficulty": 3,
+        "year": 2011
+    },
+    "108": {
+        "name": "2011 HSAPQ VHSL Regular Season",
+        "difficulty": 3,
+        "year": 2011
+    },
+    "109": {
+        "name": "2010 Fall Kickoff Tournament",
+        "difficulty": 2,
+        "year": 2010
+    },
+    "110": {
+        "name": "2010 Fall Novice",
+        "difficulty": 2,
+        "year": 2010
+    },
+    "111": {
+        "name": "2010 GDS Ben Cooper Memorial",
+        "difficulty": 3,
+        "year": 2010
+    },
+    "112": {
+        "name": "2009 Chipola Lit + Fine Arts",
+        "difficulty": 7,
+        "year": 2009
+    },
+    "113": {
+        "name": "2009 HSAPQ 4Q1",
+        "difficulty": 3,
+        "year": 2009
+    },
+    "114": {
+        "name": "2008 HSAPQ ACF 2",
+        "difficulty": 3,
+        "year": 2008
+    },
+    "115": {
+        "name": "2008 HSAPQ NSC 1",
+        "difficulty": 5,
+        "year": 2008
+    },
+    "116": {
+        "name": "2011 MUT",
+        "difficulty": 6,
+        "year": 2011
+    },
+    "117": {
+        "name": "2011 NASAT",
+        "difficulty": 7,
+        "year": 2011
+    },
+    "118": {
+        "name": "2011 PACE NSC",
+        "difficulty": 5,
+        "year": 2011
+    },
+    "119": {
+        "name": "2011 Prison Bowl",
+        "difficulty": 4,
+        "year": 2011
+    },
+    "120": {
+        "name": "2010 ACF Novice",
+        "difficulty": 6,
+        "year": 2010
+    },
+    "121": {
+        "name": "2010 Delta Burke",
+        "difficulty": 6,
+        "year": 2010
+    },
+    "122": {
+        "name": "2011 HSAPQ National History Bowl",
+        "difficulty": 4,
+        "year": 2011
+    },
+    "123": {
+        "name": "2010 ACF Fall",
+        "difficulty": 6,
+        "year": 2010
+    },
+    "124": {
+        "name": "2010 Early Fall Tournament (EFT)",
+        "difficulty": 6,
+        "year": 2010
+    },
+    "125": {
+        "name": "2010 Penn Bowl",
+        "difficulty": 7,
+        "year": 2010
+    },
+    "126": {
+        "name": "2010 Prison Bowl",
+        "difficulty": 4,
+        "year": 2010
+    },
+    "127": {
+        "name": "2011 HSAPQ VHSL States",
+        "difficulty": 3,
+        "year": 2011
+    },
+    "128": {
+        "name": "2010 Chicago Open",
+        "difficulty": 9,
+        "year": 2010
+    },
+    "129": {
+        "name": "2010 NTSS",
+        "difficulty": 3,
+        "year": 2010
+    },
+    "130": {
+        "name": "2011 HSAPQ Tournament 15",
+        "difficulty": 3,
+        "year": 2011
+    },
+    "131": {
+        "name": "2010 ACF Regionals",
+        "difficulty": 7,
+        "year": 2010
+    },
+    "132": {
+        "name": "2010 MUT",
+        "difficulty": 6,
+        "year": 2010
+    },
+    "133": {
+        "name": "2010 NASAT",
+        "difficulty": 7,
+        "year": 2010
+    },
+    "134": {
+        "name": "2009 HFT",
+        "difficulty": 4,
+        "year": 2009
+    },
+    "135": {
+        "name": "2009 HSAPQ 4Q2",
+        "difficulty": 3,
+        "year": 2009
+    },
+    "136": {
+        "name": "2009 HSAPQ Tournament 8",
+        "difficulty": 3,
+        "year": 2009
+    },
+    "137": {
+        "name": "2011 HSAPQ VHSL Districts",
+        "difficulty": 3,
+        "year": 2011
+    },
+    "138": {
+        "name": "2011 HSAPQ VHSL Regionals",
+        "difficulty": 3,
+        "year": 2011
+    },
+    "139": {
+        "name": "2010 TJ NAREN",
+        "difficulty": 3,
+        "year": 2010
+    },
+    "140": {
+        "name": "2009 DAFT",
+        "difficulty": 3,
+        "year": 2009
+    },
+    "141": {
+        "name": "2009 HSAPQ Tournament 9",
+        "difficulty": 3,
+        "year": 2009
+    },
+    "142": {
+        "name": "2009 MW GSAC XVII",
+        "difficulty": 3,
+        "year": 2009
+    },
+    "143": {
+        "name": "2011 St. Anselms and Torrey Pines",
+        "difficulty": 3,
+        "year": 2011
+    },
+    "144": {
+        "name": "2009 FICHTE",
+        "difficulty": 8,
+        "year": 2009
+    },
+    "145": {
+        "name": "2008 HFT",
+        "difficulty": 4,
+        "year": 2008
+    },
+    "146": {
+        "name": "2010 Chicago Open Arts",
+        "difficulty": 9,
+        "year": 2010
+    },
+    "147": {
+        "name": "2010 THUNDER II",
+        "difficulty": 7,
+        "year": 2010
+    },
+    "148": {
+        "name": "2010 VCU Open (Saturday)",
+        "difficulty": 9,
+        "year": 2010
+    },
+    "149": {
+        "name": "2009 BATE",
+        "difficulty": 3,
+        "year": 2009
+    },
+    "150": {
+        "name": "2009 Chicago Open Literature",
+        "difficulty": 9,
+        "year": 2009
+    },
+    "151": {
+        "name": "2010 PACE NSC",
+        "difficulty": 5,
+        "year": 2010
+    },
+    "152": {
+        "name": "2010 T-Party",
+        "difficulty": 7,
+        "year": 2010
+    },
+    "153": {
+        "name": "2011 SACK",
+        "difficulty": 9,
+        "year": 2011
+    },
+    "154": {
+        "name": "2011 Terrapin Invitational",
+        "difficulty": 7,
+        "year": 2011
+    },
+    "155": {
+        "name": "2009 HSAPQ NASAT Tryout Set",
+        "difficulty": 3,
+        "year": 2009
+    },
+    "156": {
+        "name": "2009 HSAPQ Tournament 11",
+        "difficulty": 3,
+        "year": 2009
+    },
+    "157": {
+        "name": "2010 Collaborative MS Tournament",
+        "difficulty": 1,
+        "year": 2010
+    },
+    "158": {
+        "name": "2010 Minnesota Open",
+        "difficulty": 9,
+        "year": 2010
+    },
+    "159": {
+        "name": "2010 Princeton Buzzerfest",
+        "difficulty": 7,
+        "year": 2010
+    },
+    "160": {
+        "name": "2010 Chicago Open Literature",
+        "difficulty": 9,
+        "year": 2010
+    },
+    "161": {
+        "name": "2009 NTV",
+        "difficulty": 3,
+        "year": 2009
+    },
+    "162": {
+        "name": "2009 From Here To Eternity",
+        "difficulty": 6,
+        "year": 2009
+    },
+    "163": {
+        "name": "2009 HSAPQ Tournament 10",
+        "difficulty": 3,
+        "year": 2009
+    },
+    "164": {
+        "name": "2008 HSAPQ ACF 1",
+        "difficulty": 3,
+        "year": 2008
+    },
+    "165": {
+        "name": "2008 HSAPQ NSC 2",
+        "difficulty": 5,
+        "year": 2008
+    },
+    "166": {
+        "name": "2008 PACE NSC",
+        "difficulty": 5,
+        "year": 2008
+    },
+    "167": {
+        "name": "2010 Harvard International",
+        "difficulty": 9,
+        "year": 2010
+    },
+    "168": {
+        "name": "2010 VCU Open (Sunday)",
+        "difficulty": 9,
+        "year": 2010
+    },
+    "169": {
+        "name": "2009 MUT",
+        "difficulty": 6,
+        "year": 2009
+    },
+    "170": {
+        "name": "2010 Sun n Fun",
+        "difficulty": 7,
+        "year": 2010
+    },
+    "171": {
+        "name": "2016 ACF Nationals",
+        "difficulty": 8,
+        "year": 2016
+    },
+    "172": {
+        "name": "2009 Fall Novice",
+        "difficulty": 2,
+        "year": 2009
+    },
+    "173": {
+        "name": "2008 Chicago Open Literature",
+        "difficulty": 9,
+        "year": 2008
+    },
+    "174": {
+        "name": "2010 Geography Monstrosity 2",
+        "difficulty": 9,
+        "year": 2010
+    },
+    "175": {
+        "name": "2010 MELD",
+        "difficulty": 7,
+        "year": 2010
+    },
+    "176": {
+        "name": "2008 HSAPQ ACF 3",
+        "difficulty": 3,
+        "year": 2008
+    },
+    "177": {
+        "name": "2009 Minnesota Open KLEE Fine Arts",
+        "difficulty": 9,
+        "year": 2009
+    },
+    "178": {
+        "name": "2008 HSAPQ 4Q 1",
+        "difficulty": 3,
+        "year": 2008
+    },
+    "179": {
+        "name": "2009 Fall Kickoff Tournament",
+        "difficulty": 2,
+        "year": 2009
+    },
+    "180": {
+        "name": "2008 Chitin",
+        "difficulty": 3,
+        "year": 2008
+    },
+    "181": {
+        "name": "2009 ACF Regionals",
+        "difficulty": 7,
+        "year": 2009
+    },
+    "182": {
+        "name": "2017 FRENCH",
+        "difficulty": 9,
+        "year": 2017
+    },
+    "183": {
+        "name": "2009 RMP Fest",
+        "difficulty": 9,
+        "year": 2009
+    },
+    "184": {
+        "name": "2009 PACE NSC",
+        "difficulty": 5,
+        "year": 2009
+    },
+    "185": {
+        "name": "2017 ACF Nationals",
+        "difficulty": 8,
+        "year": 2017
+    },
+    "186": {
+        "name": "2009 Mahfouz Memorial Lit",
+        "difficulty": 9,
+        "year": 2009
+    },
+    "187": {
+        "name": "2014 Gorilla Lit",
+        "difficulty": 9,
+        "year": 2014
+    },
+    "188": {
+        "name": "2009 Prison Bowl",
+        "difficulty": 4,
+        "year": 2009
+    },
+    "189": {
+        "name": "2009 THUNDER",
+        "difficulty": 7,
+        "year": 2009
+    },
+    "190": {
+        "name": "2009 U. of Georgia CCC",
+        "difficulty": 7,
+        "year": 2009
+    },
+    "191": {
+        "name": "2008 Gaddis I",
+        "difficulty": 9,
+        "year": 2008
+    },
+    "192": {
+        "name": "2008 NNT",
+        "difficulty": 3,
+        "year": 2008
+    },
+    "193": {
+        "name": "2008 NTV",
+        "difficulty": 3,
+        "year": 2008
+    },
+    "194": {
+        "name": "2008 Prison Bowl",
+        "difficulty": 4,
+        "year": 2008
+    },
+    "195": {
+        "name": "2008 QuAC I",
+        "difficulty": 3,
+        "year": 2008
+    },
+    "196": {
+        "name": "2008 RMP Fest",
+        "difficulty": 9,
+        "year": 2008
+    },
+    "197": {
+        "name": "2007 ACF Regionals",
+        "difficulty": 7,
+        "year": 2007
+    },
+    "198": {
+        "name": "2006 ACF Regionals",
+        "difficulty": 7,
+        "year": 2006
+    },
+    "200": {
+        "name": "2014 ACF Nationals",
+        "difficulty": 8,
+        "year": 2014
+    },
+    "201": {
+        "name": "2013 MUT",
+        "difficulty": 6,
+        "year": 2013
+    },
+    "203": {
+        "name": "2011 Collaborative MS Tournament",
+        "difficulty": 1,
+        "year": 2011
+    },
+    "205": {
+        "name": "2012 Collaborative MS Tournament",
+        "difficulty": 1,
+        "year": 2012
+    },
+    "206": {
+        "name": "2013 Collaborative MS Tournament",
+        "difficulty": 1,
+        "year": 2013
+    },
+    "207": {
+        "name": "2011 Collegiate Novice",
+        "difficulty": 6,
+        "year": 2011
+    },
+    "208": {
+        "name": "2014 LIST IV",
+        "difficulty": 3,
+        "year": 2014
+    },
+    "209": {
+        "name": "2016 MYSTERIUM",
+        "difficulty": 7,
+        "year": 2016
+    },
+    "210": {
+        "name": "2008 FICHTE",
+        "difficulty": 8,
+        "year": 2008
+    },
+    "211": {
+        "name": "2014 VCU Open ",
+        "difficulty": 9,
+        "year": 2014
+    },
+    "212": {
+        "name": "2012 Illinois Fall Tournament",
+        "difficulty": 7,
+        "year": 2012
+    },
+    "214": {
+        "name": "2013 NTSS",
+        "difficulty": 3,
+        "year": 2013
+    },
+    "215": {
+        "name": "2014 ACF Fall ",
+        "difficulty": 6,
+        "year": 2014
+    },
+    "216": {
+        "name": "2008 ACF Regionals",
+        "difficulty": 7,
+        "year": 2008
+    },
+    "217": {
+        "name": "2014 College History Bowl",
+        "difficulty": 8,
+        "year": 2014
+    },
+    "218": {
+        "name": "2015 ACF Nationals",
+        "difficulty": 8,
+        "year": 2015
+    },
+    "219": {
+        "name": "2008 ACF Nationals",
+        "difficulty": 8,
+        "year": 2008
+    },
+    "220": {
+        "name": "2012 BHSAT",
+        "difficulty": 4,
+        "year": 2012
+    },
+    "221": {
+        "name": "2013 BHSAT",
+        "difficulty": 4,
+        "year": 2013
+    },
+    "222": {
+        "name": "2014 BHSAT",
+        "difficulty": 4,
+        "year": 2014
+    },
+    "223": {
+        "name": "2011 Maggie Walker GSAC",
+        "difficulty": 3,
+        "year": 2011
+    },
+    "224": {
+        "name": "2012 Maggie Walker GSAC",
+        "difficulty": 3,
+        "year": 2012
+    },
+    "225": {
+        "name": "2013 Maggie Walker GSAC",
+        "difficulty": 3,
+        "year": 2013
+    },
+    "226": {
+        "name": "2010 SCOP Novice",
+        "difficulty": 2,
+        "year": 2010
+    },
+    "227": {
+        "name": "2015 George Oppen",
+        "difficulty": 9,
+        "year": 2015
+    },
+    "228": {
+        "name": "2011 SCOP Novice",
+        "difficulty": 2,
+        "year": 2011
+    },
+    "229": {
+        "name": "2012 SCOP Novice",
+        "difficulty": 2,
+        "year": 2012
+    },
+    "230": {
+        "name": "2013 SCOP Novice",
+        "difficulty": 2,
+        "year": 2013
+    },
+    "231": {
+        "name": "2009 VCU Open",
+        "difficulty": 9,
+        "year": 2009
+    },
+    "232": {
+        "name": "2009 ACF Winter ",
+        "difficulty": 7,
+        "year": 2009
+    },
+    "233": {
+        "name": "2005 Teitler Myth Singles",
+        "difficulty": 9,
+        "year": 2005
+    },
+    "235": {
+        "name": "2011 Illinois Wissenschaftslehre",
+        "difficulty": 9,
+        "year": 2011
+    },
+    "237": {
+        "name": "2014 New Trier Scobol Solo",
+        "difficulty": 3,
+        "year": 2014
+    },
+    "238": {
+        "name": "2014 Delta Burke",
+        "difficulty": 6,
+        "year": 2014
+    },
+    "239": {
+        "name": "2013 JAMES",
+        "difficulty": 3,
+        "year": 2013
+    },
+    "240": {
+        "name": "2017 PACE NSC",
+        "difficulty": 5,
+        "year": 2017
+    },
+    "242": {
+        "name": "2007 The Experiment",
+        "difficulty": 9,
+        "year": 2007
+    },
+    "244": {
+        "name": "2012 RAVE",
+        "difficulty": 3,
+        "year": 2012
+    },
+    "245": {
+        "name": "2015 ACF Fall",
+        "difficulty": 6,
+        "year": 2015
+    },
+    "246": {
+        "name": "2015 Prison Bowl VIII",
+        "difficulty": 4,
+        "year": 2015
+    },
+    "247": {
+        "name": "2013 Delta Burke",
+        "difficulty": 6,
+        "year": 2013
+    },
+    "248": {
+        "name": "2012 Delta Burke",
+        "difficulty": 6,
+        "year": 2012
+    },
+    "249": {
+        "name": "2015 Missouri Open",
+        "difficulty": 9,
+        "year": 2015
+    },
+    "250": {
+        "name": "2014 SCOP Novice",
+        "difficulty": 2,
+        "year": 2014
+    },
+    "252": {
+        "name": "2015 NASAT",
+        "difficulty": 7,
+        "year": 2015
+    },
+    "253": {
+        "name": "2016 BHSAT",
+        "difficulty": 4,
+        "year": 2016
+    },
+    "254": {
+        "name": "2016 NASAT",
+        "difficulty": 7,
+        "year": 2016
+    },
+    "255": {
+        "name": "2016 MLK",
+        "difficulty": 7,
+        "year": 2016
+    },
+    "256": {
+        "name": "2017 ACF Regionals",
+        "difficulty": 7,
+        "year": 2017
+    },
+    "257": {
+        "name": "2016 SCOP MS 6",
+        "difficulty": 1,
+        "year": 2016
+    },
+    "258": {
+        "name": "2012 YMIR",
+        "difficulty": 9,
+        "year": 2012
+    },
+    "259": {
+        "name": "2017 Geography Monstrosity",
+        "difficulty": 9,
+        "year": 2017
+    },
+    "260": {
+        "name": "2016 Geography Monstrosity",
+        "difficulty": 9,
+        "year": 2016
+    },
+    "261": {
+        "name": "2015 Geography Monstrosity",
+        "difficulty": 9,
+        "year": 2015
+    },
+    "262": {
+        "name": "2014 Geography Monstrosity",
+        "difficulty": 9,
+        "year": 2014
+    },
+    "263": {
+        "name": "2013 Geography Monstrosity",
+        "difficulty": 9,
+        "year": 2013
+    },
+    "264": {
+        "name": "2012 Geography Monstrosity",
+        "difficulty": 9,
+        "year": 2012
+    },
+    "265": {
+        "name": "2011 Geography Monstrosity",
+        "difficulty": 9,
+        "year": 2011
+    },
+    "266": {
+        "name": "2009 Geography Monstrosity",
+        "difficulty": 9,
+        "year": 2009
+    },
+    "267": {
+        "name": "2012 ANFORTAS",
+        "difficulty": 9,
+        "year": 2012
+    },
+    "268": {
+        "name": "2015 SCOP MS 5",
+        "difficulty": 1,
+        "year": 2015
+    },
+    "269": {
+        "name": "2016 Chicago Open",
+        "difficulty": 9,
+        "year": 2016
+    },
+    "270": {
+        "name": "2015 Chicago Open",
+        "difficulty": 9,
+        "year": 2015
+    },
+    "271": {
+        "name": "2009 The Experiment II",
+        "difficulty": 9,
+        "year": 2009
+    },
+    "272": {
+        "name": "2016 ACF Fall",
+        "difficulty": 6,
+        "year": 2016
+    },
+    "273": {
+        "name": "2011 Cheyne American History",
+        "difficulty": 7,
+        "year": 2011
+    },
+    "274": {
+        "name": "2012 Cheyne American History",
+        "difficulty": 7,
+        "year": 2012
+    },
+    "275": {
+        "name": "2014 Cheyne American History People",
+        "difficulty": 7,
+        "year": 2014
+    },
+    "276": {
+        "name": "2013 Cheyne American History",
+        "difficulty": 7,
+        "year": 2013
+    },
+    "277": {
+        "name": "2014 Cheyne American Thought",
+        "difficulty": 7,
+        "year": 2014
+    },
+    "278": {
+        "name": "2016 MUT",
+        "difficulty": 6,
+        "year": 2016
+    },
+    "279": {
+        "name": "2017 EMT",
+        "difficulty": 7,
+        "year": 2017
+    },
+    "280": {
+        "name": "2016 Early Fall Tournament (EFT)",
+        "difficulty": 6,
+        "year": 2016
+    },
+    "281": {
+        "name": "2008 MUT",
+        "difficulty": 6,
+        "year": 2008
+    },
+    "282": {
+        "name": "2011 Penn Bowl",
+        "difficulty": 7,
+        "year": 2011
+    },
+    "283": {
+        "name": "2013 Arrabal",
+        "difficulty": 9,
+        "year": 2013
+    },
+    "284": {
+        "name": "2016 Penn Bowl",
+        "difficulty": 7,
+        "year": 2016
+    },
+    "285": {
+        "name": "2015 VICO",
+        "difficulty": 9,
+        "year": 2015
+    },
+    "286": {
+        "name": "2016 Terrapin",
+        "difficulty": 7,
+        "year": 2016
+    },
+    "287": {
+        "name": "2015 Delta Burke",
+        "difficulty": 6,
+        "year": 2015
+    },
+    "288": {
+        "name": "2017 (This) Tournament is a Crime",
+        "difficulty": 9,
+        "year": 2017
+    },
+    "289": {
+        "name": "2011 Cheyne 1980s American History",
+        "difficulty": 7,
+        "year": 2011
+    },
+    "290": {
+        "name": "2011 Illinois Open",
+        "difficulty": 9,
+        "year": 2011
+    },
+    "291": {
+        "name": "2010 Guerrilla at ICT",
+        "difficulty": 8,
+        "year": 2010
+    },
+    "292": {
+        "name": "2012 KABO",
+        "difficulty": 7,
+        "year": 2012
+    },
+    "293": {
+        "name": "2011 Guerrilla at ICT",
+        "difficulty": 9,
+        "year": 2011
+    },
+    "294": {
+        "name": "2016 stanford housewrite",
+        "difficulty": 8,
+        "year": 2016
+    },
+    "295": {
+        "name": "2012 Peaceful Resolution",
+        "difficulty": 7,
+        "year": 2012
+    },
+    "296": {
+        "name": "2009 Chicago Open",
+        "difficulty": 9,
+        "year": 2009
+    },
+    "297": {
+        "name": "2009 Gaddis II",
+        "difficulty": 9,
+        "year": 2009
+    },
+    "298": {
+        "name": "2010 ANGST",
+        "difficulty": 9,
+        "year": 2010
+    },
+    "299": {
+        "name": "2012 College History Bowl",
+        "difficulty": 9,
+        "year": 2012
+    },
+    "300": {
+        "name": "2017 Chicago Open",
+        "difficulty": 9,
+        "year": 2017
+    },
+    "301": {
+        "name": "2014 Mavis Gallant Memorial",
+        "difficulty": 7,
+        "year": 2014
+    },
+    "302": {
+        "name": "2013 Schindler's Lit",
+        "difficulty": 7,
+        "year": 2013
+    },
+    "303": {
+        "name": "2012 WELD",
+        "difficulty": 7,
+        "year": 2012
+    },
+    "304": {
+        "name": "2015 RILKE",
+        "difficulty": 9,
+        "year": 2015
+    },
+    "305": {
+        "name": "2017 MASSOLIT",
+        "difficulty": 7,
+        "year": 2017
+    },
+    "306": {
+        "name": "2017 Jordaens Visual Arts",
+        "difficulty": 9,
+        "year": 2017
+    },
+    "307": {
+        "name": "2015 Chicago Open Visual Arts",
+        "difficulty": 9,
+        "year": 2015
+    },
+    "308": {
+        "name": "2013 Angels in the Architecture",
+        "difficulty": 8,
+        "year": 2013
+    },
+    "309": {
+        "name": "2015 SHEIKH",
+        "difficulty": 8,
+        "year": 2015
+    },
+    "310": {
+        "name": "2009 Tyrone Slothrop Literature Singles",
+        "difficulty": 9,
+        "year": 2009
+    },
+    "311": {
+        "name": "2016 A Bit of Lit",
+        "difficulty": 3,
+        "year": 2016
+    },
+    "312": {
+        "name": "2011 The Bob Loblaw Law Bowl",
+        "difficulty": 9,
+        "year": 2011
+    },
+    "313": {
+        "name": "2015 Claude Shannon Memorial Tournament",
+        "difficulty": 9,
+        "year": 2015
+    },
+    "314": {
+        "name": "2017 JAKOB",
+        "difficulty": 8,
+        "year": 2017
+    },
+    "315": {
+        "name": "2017 Letras",
+        "difficulty": 9,
+        "year": 2017
+    },
+    "316": {
+        "name": "2017 Fine Arts Common Links",
+        "difficulty": 9,
+        "year": 2017
+    },
+    "317": {
+        "name": "2010 BELFAST Arts",
+        "difficulty": 9,
+        "year": 2010
+    },
+    "318": {
+        "name": "2016 Listory",
+        "difficulty": 8,
+        "year": 2016
+    },
+    "319": {
+        "name": "2010 Julius Civilis Classics Tournament",
+        "difficulty": 9,
+        "year": 2010
+    },
+    "320": {
+        "name": "2016 WAO",
+        "difficulty": 8,
+        "year": 2016
+    },
+    "321": {
+        "name": "2017 Naveed Bork Memorial Tournament",
+        "difficulty": 9,
+        "year": 2017
+    },
+    "322": {
+        "name": "2016 Christmas Present",
+        "difficulty": 9,
+        "year": 2016
+    },
+    "324": {
+        "name": "2017 Scattergories",
+        "difficulty": 9,
+        "year": 2017
+    },
+    "325": {
+        "name": "2016 CLEAR II",
+        "difficulty": 9,
+        "year": 2016
+    },
+    "326": {
+        "name": "2017 Math Monstrosity",
+        "difficulty": 9,
+        "year": 2017
+    },
+    "328": {
+        "name": "2017 Sivakumar Day Inter-Nationals",
+        "difficulty": 7,
+        "year": 2017
+    },
+    "329": {
+        "name": "2010 Wild Kingdom",
+        "difficulty": 9,
+        "year": 2010
+    },
+    "330": {
+        "name": "2016 A Culture of Improvement",
+        "difficulty": 9,
+        "year": 2016
+    },
+    "332": {
+        "name": "2009 Minnesota Open Lit",
+        "difficulty": 9,
+        "year": 2009
+    },
+    "334": {
+        "name": "2015 Chicago Open History",
+        "difficulty": 9,
+        "year": 2015
+    },
+    "335": {
+        "name": "2015 We Have Never Been Modern",
+        "difficulty": 9,
+        "year": 2015
+    },
+    "336": {
+        "name": "2012 Harvard Fall Tournament",
+        "difficulty": 4,
+        "year": 2012
+    },
+    "337": {
+        "name": "2016 HFT XI",
+        "difficulty": 4,
+        "year": 2016
+    },
+    "341": {
+        "name": "2016 Delta Burke",
+        "difficulty": 6,
+        "year": 2016
+    },
+    "342": {
+        "name": "2017 It's Lit",
+        "difficulty": 9,
+        "year": 2017
+    },
+    "343": {
+        "name": "2016 WHAQ I",
+        "difficulty": 2,
+        "year": 2016
+    },
+    "344": {
+        "name": "2017 XENOPHON",
+        "difficulty": 7,
+        "year": 2017
+    },
+    "345": {
+        "name": "2016 Scobol Solo",
+        "difficulty": 3,
+        "year": 2016
+    },
+    "346": {
+        "name": "2017 NASAT",
+        "difficulty": 7,
+        "year": 2017
+    },
+    "348": {
+        "name": "2017 Prison Bowl X",
+        "difficulty": 4,
+        "year": 2017
+    },
+    "349": {
+        "name": "2017 LIST (Ladue Invitational Spring Tournament) VI",
+        "difficulty": 3,
+        "year": 2017
+    },
+    "350": {
+        "name": "2015 GSAC XXIII",
+        "difficulty": 3,
+        "year": 2015
+    },
+    "351": {
+        "name": "2015 HFT X",
+        "difficulty": 4,
+        "year": 2015
+    },
+    "352": {
+        "name": "2015 BASK",
+        "difficulty": 3,
+        "year": 2015
+    },
+    "353": {
+        "name": "2015 Maryland Fall",
+        "difficulty": 4,
+        "year": 2015
+    },
+    "354": {
+        "name": "2015 BISB (Brookwood Invitational Scholars Bowl)",
+        "difficulty": 3,
+        "year": 2015
+    },
+    "355": {
+        "name": "2017 BHSAT",
+        "difficulty": 3,
+        "year": 2017
+    },
+    "357": {
+        "name": "GRAPHIC",
+        "difficulty": 9,
+        "year": 2016
+    },
+    "358": {
+        "name": "2017 ACF Fall",
+        "difficulty": 6,
+        "year": 2017
+    },
+    "359": {
+        "name": "Scobol Solo",
+        "difficulty": 3,
+        "year": 2013
+    },
+    "360": {
+        "name": "2013 Scobol Solo",
+        "difficulty": 3,
+        "year": 2013
+    },
+    "361": {
+        "name": "2017 Penn Bowl",
+        "difficulty": 7,
+        "year": 2017
+    },
+    "362": {
+        "name": "Lederberg Memorial Science Tournament 2: Daughter Cell",
+        "difficulty": 9,
+        "year": 2014
+    },
+    "363": {
+        "name": "GRAB BAG",
+        "difficulty": 9,
+        "year": 2017
+    },
+    "364": {
+        "name": "2018 ACF Regionals",
+        "difficulty": 7,
+        "year": 2018
+    },
+    "365": {
+        "name": "2017 Early Fall Tournament (EFT)",
+        "difficulty": 6,
+        "year": 2017
+    },
+    "366": {
+        "name": "2017 WHAQ II",
+        "difficulty": 3,
+        "year": 2017
+    },
+    "367": {
+        "name": "2017 RMBCT",
+        "difficulty": 3,
+        "year": 2017
+    },
+    "368": {
+        "name": "2017 HFT XII",
+        "difficulty": 4,
+        "year": 2017
+    },
+    "369": {
+        "name": "2018 CMST",
+        "difficulty": 8,
+        "year": 2018
+    },
+    "370": {
+        "name": "2018 FACTS",
+        "difficulty": 3,
+        "year": 2018
+    },
+    "371": {
+        "name": "2018 SMT",
+        "difficulty": 6,
+        "year": 2018
+    },
+    "372": {
+        "name": "2017 GSAC XXV",
+        "difficulty": 4,
+        "year": 2017
+    },
+    "373": {
+        "name": "2018 IMSAnity 5",
+        "difficulty": 5,
+        "year": 2018
+    },
+    "374": {
+        "name": "2018 Chicago Open",
+        "difficulty": 9,
+        "year": 2018
+    },
+    "375": {
+        "name": "2018 Montgomery Blair Academic Tournament (MBAT)",
+        "difficulty": 3,
+        "year": 2018
+    },
+    "376": {
+        "name": "2018 PACE NSC",
+        "difficulty": 5,
+        "year": 2018
+    },
+    "377": {
+        "name": "2018 ACF Nationals",
+        "difficulty": 8,
+        "year": 2018
+    },
+    "378": {
+        "name": "2017 WAO II",
+        "difficulty": 8,
+        "year": 2017
+    },
+    "379": {
+        "name": "2018 NASAT",
+        "difficulty": 7,
+        "year": 2018
+    },
+    "380": {
+        "name": "2018 Historature",
+        "difficulty": 8,
+        "year": 2018
+    },
+    "381": {
+        "name": "2017 Philly Cheesteak",
+        "difficulty": 3,
+        "year": 2017
+    },
+    "382": {
+        "name": "2018 Great Lakes Regional Academic Championship (GLRAC)",
+        "difficulty": 2,
+        "year": 2018
+    },
+    "383": {
+        "name": "Words and Objects",
+        "difficulty": 8,
+        "year": 2018
+    },
+    "384": {
+        "name": "2018 Cambridge Open",
+        "difficulty": 7,
+        "year": 2018
+    },
+    "385": {
+        "name": "FILM",
+        "difficulty": 8,
+        "year": 2018
+    },
+    "386": {
+        "name": "2018 HORROR 1",
+        "difficulty": 9,
+        "year": 2018
+    },
+    "387": {
+        "name": "2018 Penn Bowl",
+        "difficulty": 7,
+        "year": 2018
+    },
+    "388": {
+        "name": "WORLDSTAR",
+        "difficulty": 9,
+        "year": 2018
+    },
+    "389": {
+        "name": "2018 BHSAT",
+        "difficulty": 4,
+        "year": 2018
+    },
+    "390": {
+        "name": "2018 Chicago Open Trash",
+        "difficulty": 9,
+        "year": 2018
+    },
+    "391": {
+        "name": "2017 History Bee Nationals",
+        "difficulty": 5,
+        "year": 2017
+    },
+    "392": {
+        "name": "2018 Prison Bowl XI",
+        "difficulty": 4,
+        "year": 2018
+    },
+    "393": {
+        "name": "2019 Terrapin",
+        "difficulty": 7,
+        "year": 2019
+    },
+    "394": {
+        "name": "2019 ACF Regionals",
+        "difficulty": 7,
+        "year": 2019
+    },
+    "395": {
+        "name": "2018 Early Fall Tournament (EFT)",
+        "difficulty": 6,
+        "year": 2018
+    },
+    "396": {
+        "name": "2018 HFT XIII",
+        "difficulty": 4,
+        "year": 2018
+    },
+    "398": {
+        "name": "2018 ACF Fall",
+        "difficulty": 6,
+        "year": 2018
+    },
+    "399": {
+        "name": "2019 NASAT",
+        "difficulty": 7,
+        "year": 2019
+    },
+    "400": {
+        "name": "2019 PIANO",
+        "difficulty": 8,
+        "year": 2019
+    },
+    "401": {
+        "name": "2019 PACE NSC",
+        "difficulty": 5,
+        "year": 2019
+    },
+    "402": {
+        "name": "2019 Richard Montgomery Blair Academic Tournament",
+        "difficulty": 3,
+        "year": 2019
+    },
+    "403": {
+        "name": "2019 The Unanswered Question",
+        "difficulty": 9,
+        "year": 2019
+    },
+    "404": {
+        "name": "2018 RAPTURE",
+        "difficulty": 9,
+        "year": 2018
+    },
+    "405": {
+        "name": "2019 Spartan Housewrite",
+        "difficulty": 7,
+        "year": 2019
+    },
+    "406": {
+        "name": "2018 Sun God Invitational",
+        "difficulty": 7,
+        "year": 2018
+    },
+    "407": {
+        "name": "2019 ILLIAC",
+        "difficulty": 6,
+        "year": 2019
+    },
+    "408": {
+        "name": "2018 Scattergories 2",
+        "difficulty": 9,
+        "year": 2018
+    },
+    "409": {
+        "name": "2019 LOGIC",
+        "difficulty": 3,
+        "year": 2019
+    },
+    "410": {
+        "name": "2019 Prison Bowl",
+        "difficulty": 5,
+        "year": 2019
+    },
+    "411": {
+        "name": "Tree of Clues",
+        "difficulty": 4,
+        "year": 2020
+    },
+    "412": {
+        "name": "2019 BHSAT",
+        "difficulty": 4,
+        "year": 2019
+    },
+    "413": {
+        "name": "2020 Oxford Online",
+        "difficulty": 7,
+        "year": 2020
+    },
+    "414": {
+        "name": "2019 HFT XIV",
+        "difficulty": 4,
+        "year": 2019
+    },
+    "415": {
+        "name": "2019 Chicago Open",
+        "difficulty": 9,
+        "year": 2019
+    },
+    "416": {
+        "name": "2020 CALISTO",
+        "difficulty": 3,
+        "year": 2020
+    },
+    "417": {
+        "name": "2020 Terrapin",
+        "difficulty": 7,
+        "year": 2020
+    },
+    "418": {
+        "name": "2019 ACF Fall",
+        "difficulty": 6,
+        "year": 2019
+    },
+    "419": {
+        "name": "2019 Early Fall Tournament (EFT)",
+        "difficulty": 6,
+        "year": 2019
+    }
+}

@@ -5,10 +5,10 @@ import ijson
 import weaviate.classes as wvc
 import os
 import dotenv
-import json
-import ijson
+
 from weaviate.util import generate_uuid5
 
+davidlimit = 20
 
 dotenv.load_dotenv()
 
@@ -70,7 +70,9 @@ print('JSON streaming, to avoid running out of memory on large files...')
 with open("./card_adder/filtered.json", "rb") as f:
     objects = ijson.items(f, '')
     for o in objects:
-        for o2 in o:
+        for i,o2 in enumerate(o):
+            if i >= davidlimit:
+                break
             add_object(o2)
 
 

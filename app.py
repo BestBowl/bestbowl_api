@@ -13,8 +13,8 @@ import carder
 import flask
 import json
 from flask_sqlalchemy import SQLAlchemy
-from flask import Flask, request, redirect as r, Response
-from flask_cors import CORS
+from flask import Flask, request, redirect as r, Response, send_from_directory
+
 from functools import wraps
 
 app = Flask(__name__)
@@ -215,6 +215,11 @@ def version():
         version_info = f.read()
     return message.format(version_info=version_info)
 
+@app.route("/public/<path:name>")
+def public(name):
+    return send_from_directory(
+        "public", name
+    )
 
 @app.route("/search_cards")
 @needs_params(["query", "limit", "subcategories"])
