@@ -7,17 +7,23 @@ import card_adder
 import datetime
 import secrets
 import base64
+import flask_cors
+from flask_cors import CORS
 import jsonpickle
 from fsrs import FSRS, Card, SchedulingInfo, ReviewLog ## this line will probably throw an error because i had to modify fsrs's __init__.py to give me the classes i need. this library is kinda dumb.
 import carder
 import flask
+import logging
 import json
 from flask_sqlalchemy import SQLAlchemy
 from flask import Flask, request, redirect as r, Response, send_from_directory
 
 from functools import wraps
 
+
 app = Flask(__name__)
+CORS(app, origins="*")
+
 app.config["SQLALCHEMY_DATABASE_URI"] = "sqlite:///db.sqlite"
 # Enter a secret key
 app.config["SECRET_KEY"] = "ENTER YOUR SECRET KEY"
@@ -222,11 +228,11 @@ def public(name):
     )
 
 @app.route("/search_cards")
-@needs_params(["query", "limit", "subcategories"])
-def search_cards(query=None, limit=None, user=None, subcategories=None):
+@needs_params(["query", "limit", "subcategory"])
+def search_cards(query=None, limit=None, user=None, subcategory=None):
     if (subcategories != None):
         subcategories = json.loads(subcategories)
-    results = carder.get_near_card(query, limit, subcategories=subcategories)
+    results = carder.get_near_card(query, limit, subcategories=subcategory)
     return results
 
 @app.route("/practice_card")
@@ -260,15 +266,34 @@ def view_due_cards(user=None, due=None):
 
 @app.route("/get_random_question")
 @needs_user_id
-def get_random_question(user=None):
+@needs_params(["subcategory", "category", "tournament", "question_type", "difficulty", "limit", "add"])
+def get_random_question(user=None, subcategory=None, category=None, tournament=None, question_type=None, difficulty=None, add=False, limit=1):
     '''
     gets a random new card from weaviate and adds it to the user's deck, and returns the question.
     '''
     userdata = json.loads(user.data)
-    weaviate_card = carder.get_random_card()
-    srs_card = add_card(weaviate_card, userdata)
-    card = {**weaviate_card, "srs": serialize(srs_card)}
-    return card
+    if subcategory is not None:
+        subcategory = json.loads(subcategory)
+    if category is not None:
+        category = json.loads(category)
+    if tournament is not None:
+        tournament = json.loads(tournament)
+    if question_type is not None:
+        question_type = json.loads(question_type)
+    if difficulty is not None:
+        difficulty = json.loads(difficulty)
+    weaviate_card = carder.get_random_card(subcategory=subcategory, category=category,tournament=tournament,difficulty=difficulty,question_type=question_type, limit=int(limit))
+    if len(list(filter(lambda x: x is not None, weaviate_card))) == 0:
+        return []
+    total_cards =[]
+    for card in weaviate_card:
+        if add == "true":
+            srs_card = add_card(card, userdata)
+            card = {**card, "srs": serialize(srs_card)}
+            total_cards.append(card)
+        else:
+            total_cards.append(card)
+    return total_cards
 
 
 @app.route("/uuid_to_question")
@@ -279,7 +304,15 @@ def uuid_to_question(card_uuid=None, user=None):
     srs_card = get_user_card_by_uuid(user, card_uuid)
     card = {**question, "srs": serialize(srs_card)}
     return card
-        
+
+
+@app.route("/uuid")
+@needs_params(["card_uuid"])
+def uuid_pure(card_uuid=None):
+    question = carder.get_card_by_uuid(card_uuid)
+    card = {**question}
+    return card
+
 @app.route("/create_user")
 @needs_params(["redirect"], optional=[True])
 def create_user(redirect=None):
