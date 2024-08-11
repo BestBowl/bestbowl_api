@@ -360,9 +360,10 @@ def get_random_question(user=None, subcategory=None, category=None, tournament=N
     total_cards =[]
 
     for card in weaviate_card:
-        card = {"properties": card.properties, "srs": serialize_card(srs_card), "uuid": card.uuid}
+        card = {"properties": card.properties, "uuid": card.uuid}
         if add == "true":
             srs_card = add_card(card, userdata)
+            card = {"properties": card.properties, "srs": serialize_card(srs_card), "uuid": card.uuid}
             
         total_cards.append(card)
     save_userdata(user, userdata)
