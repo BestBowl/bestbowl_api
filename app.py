@@ -363,6 +363,7 @@ def get_random_question(user=None, subcategory=None, category=None, tournament=N
         card = {"properties": t_card.properties, "uuid": t_card.uuid}
         if add == "true":
             srs_card = add_card(t_card, userdata)
+            print(srs_card)
             card = {"properties": t_card.properties, "srs": serialize_card(srs_card), "uuid": t_card.uuid}
             
         total_cards.append(card)
