@@ -5,7 +5,7 @@ import ijson
 import weaviate.classes as wvc
 import os
 import dotenv
-
+from weaviate.classes.config import Configure, Property, DataType
 from weaviate.util import generate_uuid5
 
 davidlimit = 20
@@ -16,66 +16,63 @@ dotenv.load_dotenv()
 # As of November 2023, WCS clusters are not yet compatible with the new API introduced in the v4 Python client.
 # Accordingly, we show you how to connect to a local instance of Weaviate.
 # Here, authentication is switched off, which is why you do not need to provide the Weaviate API key.
-client = weaviate.connect_to_local(
-    port=8080,
-    grpc_port=50051,
-    headers={
-        "X-OpenAI-Api-Key": os.environ["OPENAI_APIKEY"]  # Replace with your inference API key
-    }
-)
+# client = None
+def add_objects(client): 
 
-# Settings for displaying the import progress
-counter = 0
-interval = 20  # print progress every this many records; should be bigger than the batch_size
-
-prefix = "n"
-def add_object(obj) -> None:
+    # Settings for displaying the import progress
     global counter
-    # print(obj)
-    properties = {
-        'question': obj['text'],
-        'answer': obj['answer'],
-        'nid': prefix + str(obj['id'])
-        
-    }
+    counter = 0
+    interval = 25  # print progress every this many records; should be bigger than the batch_size
 
-    client.batch.configure(batch_size=100)  # Configure batch
-    with client.batch as batch:
-        # Add the object to the batch
-        
+ 
+    def add_object(obj, batch) -> None:
+        global counter
+        # print(obj)
+        del obj['uuid']
+        obj['nocard'] = True
+        obj['nid'] = obj['id']  ## weaviate doesnt like id in things
+        del obj['id']
+        properties = obj
+
+        # client.batch.configure(batch_size=100)  # Configure batch
+        # from weaviate.util import generate_uuid5  # Generate a deterministic ID
+
+        # data_rows = [{"title": f"Object {i+1}"} for i in range(5)]
+
+       
+        # obj_uuid = generate_uuid5(data_row)
         batch.add_object(
             properties=properties,
-            collection='Question',
             uuid=generate_uuid5(properties)
-            # If you Bring Your Own Vectors, add the `vector` parameter here
-            # vector=obj.vector
         )
-
-        # Calculate and display progress
+        global counter
         counter += 1
         if counter % interval == 0:
             print(f'Imported {counter} articles...')
+       
+            
 
 
-if not client.collections.exists("Question"):
-    print("MAKING NEW COLLECTION!!!")
-    client.collections.create(
-        name="Question", 
-        vectorizer_config=wvc.Configure.Vectorizer.text2vec_openai(),  # If set to "none" you must always provide vectors yourself. Could be any other "text2vec-*" also.
-        generative_config=wvc.Configure.Generative.openai(),
+    if not client.collections.exists("Question"):
+        print("MAKING NEW COLLECTION!!!")
+        client.collections.create(
+            "Question",
+            vectorizer_config=Configure.Vectorizer.text2vec_openai(),
+            # gen
+        )
         
-    )
-    
-print('JSON streaming, to avoid running out of memory on large files...')
-with open("./card_adder/filtered.json", "rb") as f:
-    objects = ijson.items(f, '')
-    for o in objects:
-        for i,o2 in enumerate(o):
-            if i >= davidlimit:
-                break
-            add_object(o2)
+    print('JSON streaming, to avoid running out of memory on large files...')
+    collection = client.collections.get("Question")  
+    with collection.batch.fixed_size(batch_size=200) as batch:
+        with open("./card_adder/filtered.json", "rb") as f:
+            objects = ijson.items(f, '')
+            for o in objects:
+                for i,o2 in enumerate(o):
+           
+                    add_object(o2, batch)
+    print(collection.batch.failed_objects)
 
-
-print(f'Finished importing {counter} articles.')
-q = client.collections.get("Question")
+    input("Waiting for input")
+    print(f'Finished importing {counter} articles.')
+    q = client.collections.get("Question")
 
