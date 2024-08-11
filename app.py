@@ -202,13 +202,14 @@ def add_card(card: Card, userdata: dict):
     ## check if it exists
     new_fsrs_card = Card()
     scheduled_stuff = F.repeat(new_fsrs_card, datetime.datetime.now())
+   
     same_cards = list(filter(lambda x: x[0] == uuid, userdata['cards']))
     if len(same_cards) > 0:
         raise KeyError("Card already present in DB")
     card = scheduled_stuff[INITIAL_SETTING]
     # srs_card = card
     userdata['cards'].append((uuid, save_serialize_schedule(card)))
-    return card
+    return (uuid, card)
    
 
 
