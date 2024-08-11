@@ -445,8 +445,8 @@ def grade_question(answer=None, student=None):
     # return json.loads(response['message']['content'])['is_correct'] == True
     return True
 
-if __name__ == "__main__":
-    app.run(host="0.0.0.0", port=5004, debug=True)
+def create_app():
+    return app
 
 def close():
     client.close()
